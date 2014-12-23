@@ -1,0 +1,15 @@
+
+public class Queue {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Create LinkedList Data Structure Object
+		//Create GUI that responds to the linked list
+		
+	}
+
+}

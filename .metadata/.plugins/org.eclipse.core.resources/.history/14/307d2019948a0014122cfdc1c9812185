@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class List {
+
+	/**
+	 * @param args
+	 */
+	private Node First;
+	private Node Last;
+	
+	public List() {
+	 //Empty Constructor
+		First = null;
+		Last = null;
+	}
+	
+	public void add(String message) {
+		Node newNode = new Node(message);
+		if (First == null) {
+			First = newNode;
+			Last = newNode;
+		} else {
+			//Add to end of the list
+			Node temp = Last;
+			Node Last = newNode;
+			temp.prev = Last;
+			Last.next = temp;
+		}
+	}
+	
+	public void deleteFirst() {
+		Node temp = First;
+		First = null;
+		temp.prev = First;
+	}
+	
+
+	
+
+}

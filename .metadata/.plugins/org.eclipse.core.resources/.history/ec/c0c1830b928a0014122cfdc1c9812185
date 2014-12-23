@@ -1,0 +1,15 @@
+
+public class Node {
+
+	/**
+	 * @param args
+	 */
+	String content;
+	
+	public Node(String message) {
+		
+		
+	
+	}
+
+}

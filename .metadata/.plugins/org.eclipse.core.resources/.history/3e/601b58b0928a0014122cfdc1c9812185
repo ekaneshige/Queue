@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class List {
+
+	/**
+	 * @param args
+	 */
+	private Node First;
+	private Node Last;
+	
+	public List() {
+	 //Empty Constructor
+		First = null;
+		Last = null;
+	}
+	
+	
+		// TODO Auto-generated method stub
+
+	
+
+}
